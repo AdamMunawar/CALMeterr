@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/cpehfif2527/public_html/
+    - export DEPLOYPATH=/home/cpehfif2527/repositories/
     - /bin/cp -R $DEPLOYPATH
