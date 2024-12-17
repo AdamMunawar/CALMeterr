@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Makanan</title>
+    <style>
+        /* *{
+            border-style: SOLID;
+        } */
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(to bottom, #135589 0%, #2A93D5 35%, #3DDAD7 75%, #AED9DA 94%, #EDFAFD 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Inter', sans-serif;
+        }
+        .container {
+            background: rgba(217, 217, 217, 0.6);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            width: 600px;
+            height: 400px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .search-bar input {
+            width: 80%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .food-list, .food-details {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .food-list {
+            width: 45%;
+      
+            margin-right: 5%;
+        }
+        .food-list button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(19, 85, 137, 0.6);
+            color: white;
+            cursor: pointer;
+            height: 40px;
+        }
+        .food-details {
+            width: 45%;
+            
+            background-color: rgb(237, 250, 253, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            
+        }
+        .food-details h2 {
+            margin-top: 0;
+        }
+        .food-details .calories {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .food-details input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .food-details button {
+            width: 48%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .food-details .add-button {
+            background-color: #4caf50;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          max-height: 30px;
+          margin-right: 5px;
+          padding-left: 15px;   
+        }
+        .save-button {
+            background-color: #2196f3;
+            color: white;
+            margin-right: 10px; margin-top: 10px;
+    
+            height: 25px;
+            border-radius: 5px;
+        }
+       .cancel-button {
+            background-color: #f44336;
+            color: white;
+            margin-right: 10px; margin-top: 10px;
+            /* border: 0cap; */
+            height: 25px;
+            border-radius: 5px;
+        }
+        .input{
+          display: flex;
+          max-width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Input Makanan</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="cari makanan">
+        </div>
+        <div style="display: flex; flex-flow: row;">
+        <div class="food-list">
+            <button>lorem ipsum geprek</button>
+            <button>sayur sup</button>
+            <button>telur balado</button>
+            <button>ayam goreng</button>
+            <button>tumis kangkung</button>
+        </div>
+        <div class="food-details">
+            <h2>lorem ipsum geprek</h2>
+            <div class="calories">xx kkal/100 gr</div>
+            <div style="display: flex; justify-content: space-between; align-items: end; height: 130px;">
+                <input class="input" type="text" placeholder="0 gram">
+                <button class="add-button">Tambah</button>
+            </div>
+            
+        </div>
+        </div>
+        <div style=" display: flex; justify-content: end; "> 
+            <button class="cancel-button" ><a href="Dashboard.html" style="color: #fff;">Kembali</a></button>
+            <button class="save-button" ><a href="profile.php" style="color: #fff;">Simpan</a></button>
+        </div>
+    </div>
+   
+</body>
+</html>

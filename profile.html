@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pengguna</title>
+    <style>
+        /* *{
+            border-style: solid;
+        } */
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(to bottom, #135589 0%, #2A93D5 35%, #3DDAD7 75%, #AED9DA 94%, #EDFAFD 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            font-family: 'Inter', sans-serif;
+        }
+        .container {
+            background-color: rgb(217, 217, 217,0.5);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 800px;
+            padding: 20px;
+            
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .profile-details {
+            /* background-color: #e0f2f1; */
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-flow: row;
+            height: 400px;
+            width: 760px;
+        }
+        .profile-details h2 {
+            margin-top: 0;
+            text-align: center;
+           
+        }
+        .detail-item {
+            margin: 10px 0;
+            margin-bottom: 8px;
+            display: flex;
+            flex-direction: row;
+            background-color: #2A93D5;
+            width: 360px;
+           color: #fff;
+            border-radius: 10px;
+            height: 55px;
+        }
+        .detail-item span {
+            font-weight: 1000;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+        }
+        .detail-item p {
+            font-weight: 1000;
+            width: 200px;
+            height: max-content;
+            display: flex;
+            justify-content: center;
+        }
+        button {
+            height: 30px;
+            width: 90px;
+            font-size: medium;
+            border-radius: 10px;
+            color: white;
+        }
+        .menu {
+            background-color: #DA5C3D;
+        }
+        .selengkapnya {
+            background-color: #3DDAD7;
+            width: 160px;
+        }
+        .selanjutnya{
+            background-color: #2A93D5;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Profil Pengguna</h1>
+        </div>
+        <div class="profile-details" >
+            <div style="width: 400px;">
+           
+            <div class="detail-item">
+                <span>Berat Badan   :</span> <p>70 kg</p>
+            </div>
+            <div class="detail-item">
+                <span>Tinggi Badan  :</span> <p>170 cm</p>
+            </div>
+            <div class="detail-item">
+                <span>Jenis Kelamin :</span> <p>Laki-laki</p>
+            </div>
+            <div class="detail-item">
+                <span>Aktivitas Harian:</span> <p>ringan
+                </div></p>
+          
+        </div>
+        <div style="background-color: rgb(237, 250, 253,0.4); border-radius: 15px; padding: 20px;">
+            <h2 style="margin-bottom:50px ;">ANDA TERMASUK GOLONGAN <div>X</div></h2>
+            <h3 style="margin-bottom:60px ;">JUMLAH KALORI YANG DIBUTUHKAN: </h3>
+            <H1 style="display: flex; justify-content: end;">XX kkacl/hari</H1>
+        </div>
+           
+        </div>
+        <div style="display: flex; justify-content:space-evenly;" >
+            <button class="menu"><a href="Dashboard.html" style="color: #fff;">Kembali</a></button>
+            <button class="selengkapnya">Selengkapnya</button>
+            <button class="selanjutnya"><a href="output.html" style="color: #fff;">Lanjutkan</a></button>
+        </div>
+    </div>
+</body>
+</html>

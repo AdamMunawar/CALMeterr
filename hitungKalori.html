@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Makanan</title>
+    <style>
+        /* *{
+            border-style: SOLID;
+        } */
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(to bottom, #135589 0%, #2A93D5 35%, #3DDAD7 75%, #AED9DA 94%, #EDFAFD 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Inter', sans-serif;
+        }
+        .container {
+            background: rgba(217, 217, 217, 0.6);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            width: 600px;
+            height: 400px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .search-bar input {
+            width: 80%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .food-list, .food-details {
+            display: inline-block;
+            vertical-align: top;
+            color: black;
+        }
+        .food-list {
+            width: 45%;
+            height: 350PX;
+            margin-right: 5%;
+        }
+        .food-list button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(19, 85, 137, 0.6);
+            color: white;
+            cursor: pointer;
+            height: 40px;
+        }
+        .food-details {
+            width: 45%;
+           height: fit-content;
+            background-color: rgb(237, 250, 253, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            
+        }
+        .food-details h2 {
+            margin-top: 0;
+        }
+        .food-details .calories {
+            font-size: 24px;
+            font-weight: 1000;
+            margin: 20px 0;
+            display: flex;
+            justify-content: end;
+            margin-bottom: 30px;
+        }
+   
+        .food-details button {
+            width: 48%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor:auto;
+        }
+        .food-details .kembali {
+            background-color: #DA5C3D;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          max-height: 28px;
+          max-width: 80px;
+          margin-right: 5px;
+           
+          border-radius: 10px;
+
+        }
+        .food-details .simpan {
+            background-color: #3DDAD7;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          max-height: 28px;
+          max-width: 80px;
+          margin-right: 5px;
+           
+          border-radius: 10px; 
+        }
+        p{
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Hitung Kalori</h1>
+        </div>
+        
+        <div style="display: flex; flex-flow: row;">
+        <div class="food-list">
+            <p>Makanan yang Dipilih :</p>
+            <button>lorem ipsum geprek</button>
+            <button>sayur sup</button>
+            <button>telur balado</button>
+           
+        </div>
+        <div class="food-details">
+            <h2>Total Kalori Makanan</h2>
+            <div class="calories">xx kkal/100 gr</div>
+            <h3>Batas Harian Anda:</h3>
+            <div class="calories" style="   font-weight: 700;">xx kkal/100 gr</div>
+            <div style="display: flex; justify-content: space-around; align-items: end; height: 120px;">
+                <button class="kembali">kembali</button>
+                <button class="simpan">simpan</button>
+            </div>
+            
+        </div>
+        </div>
+       
+    </div>
+   
+</body>
+</html>
